@@ -13,6 +13,10 @@ int main()
 	int n;
 	printf("Enter the number:\n");
 	scanf("%d", &n);
+	if(n==0)
+	{
+		printf("1");
+	}
 	printf("The sum of digits is %d", MultiSum(n));             //MultiSum() function is being called in the main() function
 	return 0;
 }
